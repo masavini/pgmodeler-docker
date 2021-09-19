@@ -22,5 +22,5 @@ docker run \
     -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
     -v /pgmodeler/config/dir:/home/$USER/.config/pgmodeler \
     -v /pgmodeler/data/dir:/data \
-    masavini/pgmodeler:latest
+    pgmodeler:latest
 ```
